@@ -1,0 +1,102 @@
+{
+  "langues" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français",
+      "jeux" : [
+        {
+          "idJeu" : 1,
+          "nom" : "nom"
+        },
+        {
+          "idJeu" : 2,
+          "nom" : "nom"
+        }
+      ]
+    },
+    {
+      "idLangue" : 2,
+      "libelle" : "Anglais",
+      "jeux" : [
+        {
+          "idJeu" : 1,
+          "nom" : "nom"
+        },
+        {
+          "idJeu" : 2,
+          "nom" : "nom"
+        }
+      ]
+    },
+    {
+      "idLangue" : 3,
+      "libelle" : "Espagnol",
+      "jeux" : [
+        {
+          "idJeu" : 1,
+          "nom" : "nom"
+        },
+        {
+          "idJeu" : 2,
+          "nom" : "nom"
+        }
+      ]
+    },
+    {
+      "idLangue" : 4,
+      "libelle" : "Allemand",
+      "jeux" : [
+        {
+          "idJeu" : 1,
+          "nom" : "nom"
+        },
+        {
+          "idJeu" : 2,
+          "nom" : "nom"
+        }
+      ]
+    },
+    {
+      "idLangue" : 5,
+      "libelle" : "Portugais",
+      "jeux" : [
+        {
+          "idJeu" : 1,
+          "nom" : "nom"
+        },
+        {
+          "idJeu" : 2,
+          "nom" : "nom"
+        }
+      ]
+    },
+    {
+      "idLangue" : 6,
+      "libelle" : "Mandarin",
+      "jeux" : [
+        {
+          "idJeu" : 1,
+          "nom" : "nom"
+        },
+        {
+          "idJeu" : 2,
+          "nom" : "nom"
+        }
+      ]
+    },
+    {
+      "idLangue" : 7,
+      "libelle" : "Russe",
+      "jeux" : [
+        {
+          "idJeu" : 1,
+          "nom" : "nom"
+        },
+        {
+          "idJeu" : 2,
+          "nom" : "nom"
+        }
+      ]
+    }
+  ]
+}

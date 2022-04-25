@@ -1,0 +1,17 @@
+[
+  {
+    "idEditeur" : 1,
+    "nom" : "nom",
+    "prenom": "prenom",
+    "jeux" : [
+      {
+        "idJeu" : 1,
+        "nom" : "nom"
+      },
+      {
+        "idJeu" : 2,
+        "nom" : "nom"
+      }
+    ]
+  }
+]

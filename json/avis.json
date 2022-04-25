@@ -1,0 +1,21 @@
+[
+  {
+    "idAvis": 1,
+    "note": 5,
+    "commentaire": "le commentaire",
+    "date": "21/08/2021",
+    "jeu" : {
+      "idJeu" : 1,
+      "nom" : "nom",
+      "categorie" : {
+          "idCategorie" : 1,
+          "libelle" : "première catégorie"
+      }
+    },
+    "utilisateur": {
+      "idUtil": 1,
+      "pseudo": "lePseudo",
+      "age": 15
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "idUtilisateur": 1,
+    "nom": "le nom",
+    "prenom": "le prénom",
+    "pseudo": "le pseudo",
+    "mail": "le mail",
+    "password": "le mot de passe",
+    "dateNaissance" : "la date de naissance",
+    "age" : 15,
+    "avis" : [
+      {
+        "idAvis": 1,
+        "note": 5,
+        "commentaire": "le commentaire",
+        "date": "21/08/2021",
+        "jeu" : {
+          "idJeu" : 1,
+          "nom" : "nom"
+        }
+      }
+    ]
+  }
+]

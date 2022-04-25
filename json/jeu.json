@@ -1,0 +1,70 @@
+[
+  {
+    "idJeu" : 1,
+    "nom" : "",
+    "description" : "",
+    "prix" : 20,
+    "nbJoueurMin" : 2,
+    "nbJoueurMax" : 5,
+    "duree" : 30,
+    "ageMin" : 15,
+    "noteComplexite" : 5,
+    "noteConcentration" : 4,
+    "noteAmbiance" : 2,
+    "dateSortie" : "",
+    "langue" : [
+      {
+        "idLangue" : 1,
+        "libelle" : "Français"
+      },
+      {
+        "idLangue" : 2,
+        "libelle" : "Anglais"
+      }
+    ],
+    "categorie" : {
+      "idCategorie" : 1,
+      "libelle" : "Jeu d'ambiance"
+    },
+    "editeur" : {
+      "idCategorie" : 1,
+      "libelle" : "Jeu d'ambiance"
+    },
+    "Auteur" : [
+      {
+        "idUtil" : 1,
+        "nom" : "",
+        "prenom" : ""
+      },
+      {
+        "idUtil" : 2,
+        "nom" : "",
+        "prenom" : ""
+      }
+    ],
+    "Avis" : [
+      {
+        "idAvis" : 1,
+        "note" : 5,
+        "commentaire" : "le commentaire",
+        "date" : "21/08/2021",
+        "utilisateur" : {
+          "idUtil" : 1,
+          "pseudo" : "lePseudo",
+          "age": 15
+        }
+      },
+      {
+        "idAvis" : 2,
+        "note" : 5,
+        "commentaire" : "le commentaire2",
+        "date" : "21/08/2021",
+        "utilisateur" : {
+          "idUtil" : 1,
+          "pseudo" : "lePseudo",
+          "age": 21
+        }
+      }
+    ]
+  }
+]

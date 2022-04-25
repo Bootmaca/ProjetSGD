@@ -1,0 +1,16 @@
+[
+  {
+    "idCategorie" : 1,
+    "libelle" : "première catégorie",
+    "jeux" : [
+      {
+        "idJeu" : 1,
+        "nom" : "nom"
+      },
+      {
+        "idJeu" : 2,
+        "nom" : "nom"
+      }
+    ]
+  }
+]
