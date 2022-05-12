@@ -1,17 +1,246 @@
-[
-  {
-    "idEditeur" : 1,
-    "nom" : "nom",
-    "prenom": "prenom",
-    "jeux" : [
-      {
-        "idJeu" : 1,
-        "nom" : "nom"
-      },
-      {
-        "idJeu" : 2,
-        "nom" : "nom"
-      }
-    ]
-  }
-]
+{
+  "_id" : 1,
+  "intitule" : "Celtic Tales",
+  "jeux" : [
+    {
+      "idJeu" : 1,
+      "nom" : "GRAAAAAAAL !",
+      "prix": 22.90
+    }
+  ]
+}
+{
+  "_id" : 2,
+  "intitule" : "Oka Luda",
+  "jeux" : [
+    {
+      "idJeu" : 2,
+      "nom" : "PATOU'CHE",
+      "prix": 14.50
+    }
+  ]
+}
+{
+  "_id" : 3,
+  "intitule" : "Gigamic",
+  "jeux" : [
+    {
+      "idJeu" : 3,
+      "nom" : "SURPRISE DU CHEF !",
+      "prix": 21.90
+    },
+    {
+      "idJeu" : 14,
+      "nom" : "BEE GENIUS",
+      "prix": 24.00
+    }
+  ]
+}
+{
+  "_id" : 4,
+  "intitule" : "Lucky Duck Games",
+  "jeux" : [
+    {
+      "idJeu" : 4,
+      "nom" : "SHERLOCK – CONNECTEZ LES INDICES",
+      "prix": 22.50
+    }
+  ]
+}
+{
+  "_id" : 5,
+  "intitule" : "Pretzel Games",
+  "jeux" : [
+    {
+      "idJeu" : 5,
+      "nom" : "YAK",
+      "prix": 40.50
+    }
+  ]
+}
+{
+  "_id" : 6,
+  "intitule" : "Avalon Hill",
+  "jeux" : [
+    {
+      "idJeu" : 6,
+      "nom" : "BETRAYAL AT HOUSE ON THE HILL VF (3ÈME ÉDITION)",
+      "prix": 55.90
+    }
+  ]
+}
+{
+  "_id" : 7,
+  "intitule" : "Hasbro",
+  "jeux" : [
+    {
+      "idJeu" : 6,
+      "nom" : "BETRAYAL AT HOUSE ON THE HILL VF (3ÈME ÉDITION)",
+      "prix": 17.90
+    },
+    {
+      "idJeu" : 21,
+      "nom" : "YAHTZEE CLASSIQUE",
+      "prix": 15.00
+    }
+  ]
+}
+{
+  "_id" : 8,
+  "intitule" : "Matagot",
+  "jeux" : [
+    {
+      "idJeu" : 7,
+      "nom" : "PLATYPUS",
+      "prix": 17.90
+    },
+    {
+      "idJeu" : 8,
+      "nom" : "LIBERTALIA : LES VENTS DE GALECREST",
+      "prix": 49.50
+    }    
+  ]
+}
+{
+  "_id" : 9,
+  "intitule" : "Stonemaier Games",
+  "jeux" : [
+    {
+      "idJeu" : 8,
+      "nom" : "LIBERTALIA : LES VENTS DE GALECREST",
+      "prix": 11.90
+    }
+  ]
+}
+{
+  "_id" : 10,
+  "intitule" : "Le Scorpion Masqué",
+  "jeux" : [
+    {
+      "idJeu" : 9,
+      "nom" : "ZÉRO À 100",
+      "prix": 13.50
+    }
+  ]
+}
+{
+  "_id" : 11,
+  "intitule" : "Oldchap Editions",
+  "jeux" : [
+    {
+      "idJeu" : 10,
+      "nom" : "PAR ODIN",
+      "prix": 36.00
+    }
+  ]
+}
+{
+  "_id" : 12,
+  "intitule" : "Grail Games",
+  "jeux" : [
+    {
+      "idJeu" : 19.90,
+      "nom" : "FJORDS",
+      "prix": 15
+    }
+  ]
+}
+{
+  "_id" : 13,
+  "intitule" : "Origames",
+  "jeux" : [
+    {
+      "idJeu" : 12,
+      "nom" : "VOYAGE AU CENTRE DE LA TERRE",
+      "prix": 16.60
+    }
+  ]
+}
+{
+  "_id" : 14,
+  "intitule" : "Funforge",
+  "jeux" : [
+    {
+      "idJeu" : 13,
+      "nom" : "LE PEUPLE LOUP - MON AVENTURE",
+      "prix": 24.00
+    }
+  ]
+}
+{
+  "_id" : 15,
+  "intitule" : "Grrre Games",
+  "jeux" : [
+    {
+      "idJeu" : 15,
+      "nom" : "BINGO ISLAND + TUILE GOODIES",
+      "prix": 23.90
+    }
+  ]
+}
+{
+  "_id" : 16,
+  "intitule" : "Smart Games",
+  "jeux" : [
+    {
+      "idJeu" : 16,
+      "nom" : "IQ SIX PRO",
+      "prix": 12.00
+    }
+  ]
+}
+{
+  "_id" : 17,
+  "intitule" : "Huch",
+  "jeux" : [
+    {
+      "idJeu" : 17,
+      "nom" : "LE PETIT FANTÔME",
+      "prix": 27.00
+    }
+  ]
+}
+{
+  "_id" : 18,
+  "intitule" : "Atalia",
+  "jeux" : [
+    {
+      "idJeu" : 17,
+      "nom" : "LE PETIT FANTÔME",
+      "prix": 35.00
+    }
+  ]
+}
+{
+  "_id" : 19,
+  "intitule" : "Wilson Jeux - Importation",
+  "jeux" : [
+    {
+      "idJeu" : 18,
+      "nom" : "ÉCHECS CLUB COMPÉTITION 50CM",
+      "prix": 16.90
+    }
+  ]
+}
+{
+  "_id" : 20,
+  "intitule" : "Spinmaster",
+  "jeux" : [
+    {
+      "idJeu" : 19,
+      "nom" : "RUBIK'S CUBE 3X3 (SMALL PACK)",
+      "prix": 19.90
+    }
+  ]
+}
+{
+  "_id" : 21,
+  "intitule" : "Schmidt",
+  "jeux" : [
+    {
+      "idJeu" : 20,
+      "nom" : "DAMES - TRADITION",
+      "prix": 15.0
+    }
+  ]
+}

@@ -1,102 +1,192 @@
 {
-  "langues" : [
+  "_id" : 1,
+  "libelle" : "Français",
+  "jeux" : [
     {
-      "idLangue" : 1,
-      "libelle" : "Français",
-      "jeux" : [
-        {
-          "idJeu" : 1,
-          "nom" : "nom"
-        },
-        {
-          "idJeu" : 2,
-          "nom" : "nom"
-        }
-      ]
+      "idJeu" : 1,
+      "nom" : "GRAAAAAAAL !",
+      "prix": 22.90
     },
     {
-      "idLangue" : 2,
-      "libelle" : "Anglais",
-      "jeux" : [
-        {
-          "idJeu" : 1,
-          "nom" : "nom"
-        },
-        {
-          "idJeu" : 2,
-          "nom" : "nom"
-        }
-      ]
+      "idJeu" : 2,
+      "nom" : "PATOU'CHE",
+      "prix": 14.50
     },
     {
-      "idLangue" : 3,
-      "libelle" : "Espagnol",
-      "jeux" : [
-        {
-          "idJeu" : 1,
-          "nom" : "nom"
-        },
-        {
-          "idJeu" : 2,
-          "nom" : "nom"
-        }
-      ]
+      "idJeu" : 3,
+      "nom" : "SURPRISE DU CHEF !",
+      "prix": 21.90
     },
     {
-      "idLangue" : 4,
-      "libelle" : "Allemand",
-      "jeux" : [
-        {
-          "idJeu" : 1,
-          "nom" : "nom"
-        },
-        {
-          "idJeu" : 2,
-          "nom" : "nom"
-        }
-      ]
+      "idJeu" : 4,
+      "nom" : "SHERLOCK – CONNECTEZ LES INDICES",
+      "prix": 22.50
     },
     {
-      "idLangue" : 5,
-      "libelle" : "Portugais",
-      "jeux" : [
-        {
-          "idJeu" : 1,
-          "nom" : "nom"
-        },
-        {
-          "idJeu" : 2,
-          "nom" : "nom"
-        }
-      ]
+      "idJeu" : 5,
+      "nom" : "YAK",
+      "prix": 40.50
     },
     {
-      "idLangue" : 6,
-      "libelle" : "Mandarin",
-      "jeux" : [
-        {
-          "idJeu" : 1,
-          "nom" : "nom"
-        },
-        {
-          "idJeu" : 2,
-          "nom" : "nom"
-        }
-      ]
+      "idJeu" : 6,
+      "nom" : "BETRAYAL AT HOUSE ON THE HILL VF (3ÈME ÉDITION)",
+      "prix": 55.90
     },
     {
-      "idLangue" : 7,
-      "libelle" : "Russe",
-      "jeux" : [
-        {
-          "idJeu" : 1,
-          "nom" : "nom"
-        },
-        {
-          "idJeu" : 2,
-          "nom" : "nom"
-        }
-      ]
+      "idJeu" : 7,
+      "nom" : "PLATYPUS",
+      "prix": 17.90
+    },
+    {
+      "idJeu" : 8,
+      "nom" : "LIBERTALIA : LES VENTS DE GALECREST",
+      "prix": 49.50
+    },
+    {
+      "idJeu" : 9,
+      "nom" : "ZÉRO À 100",
+      "prix": 11.90
+    },
+    {
+      "idJeu" : 10,
+      "nom" : "PAR ODIN",
+      "prix": 13.50
+    },
+    {
+      "idJeu" : 11,
+      "nom" : "FJORDS",
+      "prix": 36.00
+    },
+    {
+      "idJeu" : 12,
+      "nom" : "VOYAGE AU CENTRE DE LA TERRE",
+      "prix": 19.90
+    },
+    {
+      "idJeu" : 13,
+      "nom" : "LE PEUPLE LOUP - MON AVENTURE",
+      "prix": 16.90
+    },
+    {
+      "idJeu" : 14,
+      "nom" : "BEE GENIUS",
+      "prix": 24.00
+    },
+    {
+      "idJeu" : 15,
+      "nom" : "BINGO ISLAND + TUILE GOODIES",
+      "prix": 23.90
+    },
+    {
+      "idJeu" : 16,
+      "nom" : "IQ SIX PRO",
+      "prix": 12.00
+    },
+    {
+      "idJeu" : 17,
+      "nom" : "LE PETIT FANTÔME",
+      "prix": 27.00
+    },
+    {
+      "idJeu" : 18,
+      "nom" : "ÉCHECS CLUB COMPÉTITION 50CM",
+      "prix": 35.00
+    },
+    {
+      "idJeu" : 19,
+      "nom" : "RUBIK'S CUBE 3X3 (SMALL PACK)",
+      "prix": 16.90
+    },
+    {
+      "idJeu" : 20,
+      "nom" : "DAMES - TRADITION",
+      "prix": 19.90
+    },
+    {
+      "idJeu" : 21,
+      "nom" : "YAHTZEE CLASSIQUE",
+      "prix": 15.00
+    }
+  ]
+}
+{
+  "_id" : 2,
+  "libelle" : "Anglais",
+  "jeux" : [
+    {
+      "idJeu" : 2,
+      "nom" : "PATOU'CHE",
+      "prix": 14.50
+    },
+    {
+      "idJeu" : 11,
+      "nom" : "FJORDS",
+      "prix": 36.00
+    },
+    {
+      "idJeu" : 16,
+      "nom" : "IQ SIX PRO",
+      "prix": 12.00
+    },
+    {
+      "idJeu" : 18,
+      "nom" : "ÉCHECS CLUB COMPÉTITION 50CM",
+      "prix": 35.00
+    }
+  ]
+}
+{
+  "_id" : 3,
+  "libelle" : "Allemand",
+  "jeux" : [
+    {
+      "idJeu" : 16,
+      "nom" : "IQ SIX PRO",
+      "prix": 12.00
+    }
+  ]
+}
+{
+  "_id" : 4,
+  "libelle" : "Espagnol",
+  "jeux" : [
+    {
+      "idJeu" : 16,
+      "nom" : "IQ SIX PRO",
+      "prix": 12.00
+    }
+  ]
+}
+{
+  "_id" : 5,
+  "libelle" : "Italien",
+  "jeux" : [
+    {
+      "idJeu" : 16,
+      "nom" : "IQ SIX PRO",
+      "prix": 12.00
+    }
+  ]
+}
+{
+  "_id" : 6,
+  "libelle" : "Portugais",
+  "jeux" : [
+    {
+      "idJeu" : 16,
+      "nom" : "IQ SIX PRO",
+      "prix": 12.00
+    }
+  ]
+}
+{
+  "_id" : 7,
+  "libelle" : "Néerlandais",
+  "jeux" : [
+    {
+      "idJeu" : 16,
+      "nom" : "IQ SIX PRO",
+      "prix": 12.00
     }
   ]
 }

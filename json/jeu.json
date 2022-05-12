@@ -1,70 +1,1167 @@
-[
-  {
-    "idJeu" : 1,
-    "nom" : "",
-    "description" : "",
-    "prix" : 20,
-    "nbJoueurMin" : 2,
-    "nbJoueurMax" : 5,
-    "duree" : 30,
-    "ageMin" : 15,
-    "noteComplexite" : 5,
-    "noteConcentration" : 4,
-    "noteAmbiance" : 2,
-    "dateSortie" : "",
-    "langue" : [
-      {
-        "idLangue" : 1,
-        "libelle" : "Français"
-      },
-      {
-        "idLangue" : 2,
-        "libelle" : "Anglais"
+{
+  "_id" : 1,
+  "nom" : "GRAAAAAAAL !",
+  "description" : "Battez-vous et que le meilleur graaal.... !",
+  "prix" : 22.90,
+  "nbJoueurMin" : 3,
+  "nbJoueurMax" : 8,
+  "duree" : 30,
+  "ageMin" : 6,
+  "noteComplexite" : 1,
+  "noteConcentration" : 2,
+  "noteAmbiance" : 5,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    }
+  ],
+  "categorie" : {
+    "idCategorie" : 1,
+    "libelle" : "Jeux d'ambiance"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 1,
+      "intitule" : "Celtic Tales"
+    }
+  ],
+  "auteur" : [
+    {
+      "idAuteur" : 1,
+      "nom" : "BERNARD",
+      "prenom": "Pascal"
+    }
+  ],
+  "avis" : [
+    {
+      "idAvis" : 8,
+      "note" : 5,
+      "commentaire" : "AWESOMEEEEEE",
+      "date" : ISODate("2020-05-28T01:47:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 6,
+          "pseudo" : "maroux",
+          "age" : 37
       }
-    ],
-    "categorie" : {
-      "idCategorie" : 1,
-      "libelle" : "Jeu d'ambiance"
     },
-    "editeur" : {
-      "idCategorie" : 1,
-      "libelle" : "Jeu d'ambiance"
+    {
+      "idAvis" : 31,
+      "note" : 5,
+      "commentaire" : "Super",
+      "date" : ISODate("2022-04-09T00:28:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 17,
+          "pseudo" : "greg",
+          "age" : 35
+      }
+    }
+  ]
+}
+{
+  "_id" : 2,
+  "nom" : "PATOU'CHE",
+  "description" : "Aurez-vous le plus gros troupeau..?",
+  "prix" : 14.50,
+  "nbJoueurMin" : 3,
+  "nbJoueurMax" : 5,
+  "duree" : 15,
+  "ageMin" : 7,
+  "noteComplexite" : 1,
+  "noteConcentration" : 2,
+  "noteAmbiance" : 2,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
     },
-    "Auteur" : [
-      {
+    {
+      "idLangue" : 2,
+      "libelle" : "Anglais"
+    }
+  ],
+  "categorie" : {
+    "idCategorie" : 1,
+    "libelle" : "Jeux d'ambiance"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 2,
+      "intitule" : "Oka Luda"
+    }
+  ],
+  "auteur" : [
+    {
+      "idAuteur" : 2,
+      "nom" : "NH",
+      "prenom": "Cédric"
+    }
+  ]
+}
+{
+  "_id" : 3,
+  "nom" : "SURPRISE DU CHEF !",
+  "description" : "Allez tous en cuisine..!",
+  "prix" : 21.90,
+  "nbJoueurMin" : 3,
+  "nbJoueurMax" : 5,
+  "duree" : 20,
+  "ageMin" : 8,
+  "noteComplexite" : 1,
+  "noteConcentration" : 2,
+  "noteAmbiance" : 3,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    }
+  ],
+  "categorie" : {
+    "idCategorie" : 1,
+    "libelle" : "Jeux d'ambiance"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 3,
+      "intitule" : "Gigamic"
+    }
+  ],
+  "auteur" : [
+    {
+      "idAuteur" : 3,
+      "nom" : "M. Allué",
+      "prenom": "Josep"
+    },
+    {
+      "idAuteur" : 4,
+      "nom" : "Yohan",
+      "prenom": "Goh"
+    }
+  ],
+  "avis" : [
+    {
+      "idAvis" : 2,
+      "note" : 2,
+      "commentaire" : "Règles incohérente",
+      "date" : ISODate("2019-02-23T22:43:20.201Z"),
+      "utilisateur" : {
+          "idUtil" : 9,
+          "pseudo" : "clauclau",
+          "age" : 44
+      }
+    },
+    {
+      "idAvis" : 24,
+      "note" : 2,
+      "commentaire" : "Pas super comme jeu",
+      "date" : ISODate("2021-09-16T05:35:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 2,
+          "pseudo" : "guigui21",
+          "age" : 18
+      }
+    }
+  ]
+}
+{
+  "_id" : 4,
+  "nom" : "SHERLOCK – CONNECTEZ LES INDICES",
+  "description" : "Revivez les enquêtes de la célèbre série...",
+  "prix" : 22.50,
+  "nbJoueurMin" : 2,
+  "nbJoueurMax" : 4,
+  "duree" : 30,
+  "ageMin" : 8,
+  "noteComplexite" : 2,
+  "noteConcentration" : 4,
+  "noteAmbiance" : 2,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    }
+  ],
+  "categorie" : {
+    "idCategorie" : 2,
+    "libelle" : "Jeux de stratégie"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 4,
+      "intitule" : "Lucky Duck Games"
+    }
+  ],
+  "auteur" : [
+    {
+      "idAuteur" : 5,
+      "nom" : "IGNATOW",
+      "prenom": "Radoslaw"
+    }
+  ]
+}
+{
+  "_id" : 5,
+  "nom" : "YAK",
+  "description" : "Partez pour les sommets embrumés de l'Himalaya...",
+  "prix" : 40.50,
+  "nbJoueurMin" : 2,
+  "nbJoueurMax" : 4,
+  "duree" : 30,
+  "ageMin" : 8,
+  "noteComplexite" : 2,
+  "noteConcentration" : 3,
+  "noteAmbiance" : 2,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    }
+  ],
+  "categorie" : {
+    "idCategorie" : 2,
+    "libelle" : "Jeux de stratégie"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 5,
+      "intitule" : "Pretzel Games"
+    }
+  ],
+  "auteur" : [
+    {
+      "idAuteur" : 6,
+      "nom" : "LUU",
+      "prenom": "Michael"
+    }
+  ],
+  "avis" : [
+    {
+      "idAvis" : 16,
+      "note" : 2,
+      "commentaire" : "J'ai joué 5 minutes et hop poubelle. 2 etoiles car c'était bien emballé",
+      "date" : ISODate("2021-05-19T01:38:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 11,
+          "pseudo" : "greg",
+          "age" : 46
+      }
+    },
+    {
+      "idAvis" : 17,
+      "note" : 1,
+      "commentaire" : "En vraie n'acheter pas parce que c'est 40 euros de perdu",
+      "date" : ISODate("2021-05-20T01:39:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 10,
+          "pseudo" : "foufoudu87",
+          "age" : 42
+      }
+    },
+    {
+      "idAvis" : 32,
+      "note" : 1,
+      "commentaire" : "Je suis pas difficile mais la on a touché le fond",
+      "date" : ISODate("2022-04-23T00:42:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 13,
+          "pseudo" : "emi23",
+          "age" : 47
+      }
+    }
+  ]
+}
+{
+  "_id" : 6,
+  "nom" : "BETRAYAL AT HOUSE ON THE HILL VF (3ÈME ÉDITION)",
+  "description" : "Pénétrez dans la maison des cauchemars..!",
+  "prix" : 55.90,
+  "nbJoueurMin" : 3,
+  "nbJoueurMax" : 6,
+  "duree" : 60,
+  "ageMin" : 12,
+  "noteComplexite" : 4,
+  "noteConcentration" : 4,
+  "noteAmbiance" : 3,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    }
+  ],
+  "categorie" : {
+    "idCategorie" : 2,
+    "libelle" : "Jeux de stratégie"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 6,
+      "intitule" : "Avalon Hill"
+    },
+    {
+      "idEditeur" : 7,
+      "intitule" : "Hasbro"
+    }
+  ],
+  "auteur" : [
+    {
+      "idAuteur" : 7,
+      "nom" : "GLASSCO",
+      "prenom": "Bruce"
+    }
+  ],
+  "avis" : [
+    {
+      "idAvis" : 5,
+      "note" : 1,
+      "commentaire" : "Qualité lamentable et c'est bien dommage \nJe viens de recevoir le jeu ce matin et je suis très déçue. C'est quand même une jeu qui coute 56? et le matériel est de très mauvaise qualité : les tuiles pas très épaisses, la boite pas très solide, plein de poils à l'intérieur, le jeu n'était pas celophané. On voit bien que l'éditeur ne s'est pas cassé la nenette pour donner un matériel à la hauteur du prix. Ca vallait vraiment pas la peine d'attendre un mois. Esprit Jeu n'y est pour rien mais carton rouge pour Avalon Hill",
+      "date" : ISODate("2020-01-29T21:49:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 9,
+          "pseudo" : "clauclau",
+          "age" : 44
+      }
+    },
+    {
+      "idAvis" : 13,
+      "note" : 1,
+      "commentaire" : "Déception totale. On nous prend pour des vaches à lait \nQuelle déception ne fut la mienne en ouvrant ce jeu que j'ai quand même payé près de 60? : jeu non cellophané, boite du jeu en carton de piètre qualité, thermoformage à vomir,plein de poils blancs et pas plus solide que celui d'un paquet de gateaux, tuiles hyper fines donc hyper fragiles, règles du jeu en papier plus que basique. Bref j'ai été un peu beaucoup refroidie alors que j'en attendais pas mal de ce jeu. Déception totale.",
+      "date" : ISODate("2021-01-18T21:38:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 2,
+          "pseudo" : "guigui21",
+          "age" : 18
+      }
+    },
+    {
+      "idAvis" : 26,
+      "note" : 4,
+      "commentaire" : "Le jeu est génial. La qualité de l'édition n'est pas aussi bonne que les editions précédentes (carton trop fin et fragile les personnages ne sont plus peint) par contre la qualité d'impression est meilleure et les regles sont mieux écrites. Le plaisir est toujours présent. Je recommande des parties de 4 a 6 personnes. le jeu est accessible aux néophites si une personne maitrise les régles.",
+      "date" : ISODate("2022-01-05T21:25:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 5,
+          "pseudo" : "pico",
+          "age" : 39
+      }
+    }
+  ]
+}
+{
+  "_id" : 7,
+  "nom" : "PLATYPUS",
+  "description" : "Il n'en restera qu'un et il faudra que ce soit le bon...",
+  "prix" : 17.90,
+  "nbJoueurMin" : 3,
+  "nbJoueurMax" : 8,
+  "duree" : 30,
+  "ageMin" : 8,
+  "noteComplexite" : 1,
+  "noteConcentration" : 3,
+  "noteAmbiance" : 4,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    }
+  ],
+  "categorie" : {
+    "idCategorie" : 1,
+    "libelle" : "Jeux d'ambiance"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 8,
+      "intitule" : "Matagot"
+    }
+  ],
+  "auteur" : [
+    {
+      "idAuteur" : 8,
+      "nom" : "WALKER-HARDING",
+      "prenom": "Phil"
+    }
+  ],
+  "avis" : [
+    {
+      "idAvis" : 11,
+      "note" : 5,
+      "commentaire" : "Top !",
+      "date" : ISODate("2021-01-01T21:21:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 7,
+          "pseudo" : "beyer",
+          "age" : 48
+      }
+    }
+  ]
+}
+{
+  "_id" : 8,
+  "nom" : "LIBERTALIA : LES VENTS DE GALECREST",
+  "description" : "Partez en quête de fabuleux trésors...",
+  "prix" : 49.50,
+  "nbJoueurMin" : 2,
+  "nbJoueurMax" : 6,
+  "duree" : 45,
+  "ageMin" : 14,
+  "noteComplexite" : 3,
+  "noteConcentration" : 4,
+  "noteAmbiance" : 2,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    }
+  ],
+  "categorie" : {
+    "idCategorie" : 2,
+    "libelle" : "Jeux de stratégie"
+  },  
+  "editeur" : [
+    {
+      "idEditeur" : 8,
+      "intitule" : "Matagot"
+    },
+    {
+      "idEditeur" : 9,
+      "intitule" : "Stonemaier Games"
+    }
+  ],
+  "auteur" : [
+    {
+      "idAuteur" : 9,
+      "nom" : "MORI",
+      "prenom": "Paolo"
+    }
+  ],
+  "avis" : [
+    {
+      "idAvis" : 3,
+      "note" : 3,
+      "commentaire" : "Bien mais un peu long quand même",
+      "date" : ISODate("2019-09-11T05:30:20.201Z"),
+      "utilisateur" : {
+          "idUtil" : 9,
+          "pseudo" : "clauclau",
+          "age" : 44
+      }
+    },
+    {
+      "idAvis" : 9,
+      "note" : 3,
+      "commentaire" : "Bof",
+      "date" : ISODate("2020-08-27T04:46:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 17,
+          "pseudo" : "heneken",
+          "age" : 35
+      }
+    }
+  ]
+}
+{
+  "_id" : 9,
+  "nom" : "ZÉRO À 100",
+  "description" : "Le jeu vaguement intelligent...",
+  "prix" : 11.90,
+  "nbJoueurMin" : 2,
+  "nbJoueurMax" : 12,
+  "duree" : 15,
+  "ageMin" : 12,
+  "noteComplexite" : 1,
+  "noteConcentration" : 2,
+  "noteAmbiance" : 4,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    }
+  ],
+  "categorie" : {
+    "idCategorie" : 1,
+    "libelle" : "Jeux d'ambiance"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 10,
+      "intitule" : "Le Scorpion Masqué"
+    }
+  ],
+  "auteur" : [
+    {
+      "idAuteur" : 10,
+      "nom" : "BOCCARA",
+      "prenom": "Antonin"
+    }
+  ],
+  "avis" : [
+    {
+      "idAvis" : 1,
+      "note" : 1,
+      "commentaire" : "C'est peut-être que pour les voitures 0 à 100 pas pour les jeux car celui-ci est médiocre !",
+      "date" : ISODate("2019-01-10T21:30:20.201Z"),
+      "utilisateur" : {
+          "idUtil" : 17,
+          "pseudo" : "heneken",
+          "age" : 35
+      }
+    },
+    {
+      "idAvis" : 29,
+      "note" : 5,
+      "commentaire" : "Dans un bar, sur une plage, en vacance entre amis, le format que j'adore",
+      "date" : ISODate("2022-02-22T22:42:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 3,
+          "pseudo" : "antomeme",
+          "age" : 59
+      }
+    },
+    {
+      "idAvis" : 30,
+      "note" : 4,
+      "commentaire" : "Rapide et fun",
+      "date" : ISODate("2022-03-16T23:36:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 18,
+          "pseudo" : "loulou",
+          "age" : 39
+      }
+    }
+  ]
+}
+{
+  "_id" : 10,
+  "nom" : "PAR ODIN",
+  "description" : "50 défis pour entrer dans la légende!",
+  "prix" : 13.50,
+  "nbJoueurMin" : 1,
+  "nbJoueurMax" : 1,
+  "duree" : 30,
+  "ageMin" : 8,
+  "noteComplexite" : 2,
+  "noteConcentration" : 3,
+  "noteAmbiance" : 1,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    }
+  ],
+  "categorie" : {
+    "idCategorie" : 2,
+    "libelle" : "Jeux de stratégie"
+  }, 
+  "editeur" : [
+    {
+      "idEditeur" : 11,
+      "intitule" : "Oldchap Editions"
+    }
+  ],
+  "auteur" : [
+    {
+      "idAuteur" : 10,
+      "nom" : "BOCCARA",
+      "prenom": "Antonin"
+    }
+  ],
+  "avis" : [
+    {
+      "idAvis" : 4,
+      "note" : 5,
+      "commentaire" : "Petit jeu sympa mon fils adore",
+      "date" : ISODate("2019-10-31T06:50:20.201Z"),
+      "utilisateur" : {
+          "idUtil" : 5,
+          "pseudo" : "pico",
+          "age" : 39
+      }
+    },
+    {
+      "idAvis" : 12,
+      "note" : 2,
+      "commentaire" : "Assez dur .. il faut être fort en math...",
+      "date" : ISODate("2021-01-10T21:30:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 18,
+          "pseudo" : "loulou",
+          "age" : 39
+      }
+    },
+    {
+      "idAvis" : 14,
+      "note" : 5,
+      "commentaire" : "C'est un cadeau et la personne adore ce genre de jeu donc il n'y a pas de soucis la dessus.",
+      "date" : ISODate("2021-02-18T22:38:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 13,
+          "pseudo" : "emi23",
+          "age" : 47
+      }
+    },
+    {
+      "idAvis" : 15,
+      "note" : 5,
+      "commentaire" : "Conforme à mes attentes",
+      "date" : ISODate("2021-02-25T22:45:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 12,
+          "pseudo" : "geodegeographie",
+          "age" : 50
+      }
+    },
+    {
+      "idAvis" : 20,
+      "note" : 5,
+      "commentaire" : "Addictif! Je l'ai fait essayer à mes collègues de bureau et ils l'ont tous acheté",
+      "date" : ISODate("2021-08-16T04:35:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 9,
+          "pseudo" : "clauclau",
+          "age" : 44
+      }
+    },
+    {
+      "idAvis" : 22,
+      "note" : 5,
+      "commentaire" : "1 vrai jeu pour solo c'est cool car il y en a peu sans que ce soit des casse-tête.je n'avais que \"vendredi\" & \"fini!\" 1 de + c pas mal",
+      "date" : ISODate("2021-08-26T04:45:20.202Z"),
+      "utilisateur" : {
         "idUtil" : 1,
-        "nom" : "",
-        "prenom" : ""
-      },
-      {
-        "idUtil" : 2,
-        "nom" : "",
-        "prenom" : ""
+        "pseudo" : "clemclem",
+        "age" : 27
       }
-    ],
-    "Avis" : [
-      {
-        "idAvis" : 1,
-        "note" : 5,
-        "commentaire" : "le commentaire",
-        "date" : "21/08/2021",
-        "utilisateur" : {
-          "idUtil" : 1,
-          "pseudo" : "lePseudo",
-          "age": 15
-        }
-      },
-      {
-        "idAvis" : 2,
-        "note" : 5,
-        "commentaire" : "le commentaire2",
-        "date" : "21/08/2021",
-        "utilisateur" : {
-          "idUtil" : 1,
-          "pseudo" : "lePseudo",
-          "age": 21
-        }
+    },
+    {
+      "idAvis" : 23,
+      "note" : 4,
+      "commentaire" : "tout seul ou même à plusieurs ce jeu va nous rendre fou, très bien pour introduire des notion de maths. A recommander !",
+      "date" : ISODate("2021-08-28T04:47:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 6,
+          "pseudo" : "maroux",
+          "age" : 37
       }
-    ]
-  }
-]
+    },
+    {
+      "idAvis" : 27,
+      "note" : 4,
+      "commentaire" : "Jeu de calcul avec des dés bien pensé. Plaira aux enfants et aux adultes. Le niveau de difficulté monte rapidement.",
+      "date" : ISODate("2022-01-15T21:35:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 10,
+          "pseudo" : "foufoudu87",
+          "age" : 42
+      }
+    }
+  ]
+}
+{
+  "_id" : 11,
+  "nom" : "FJORDS",
+  "description" : "Guidez votre clan sur de nouvelles terres !",
+  "prix" : 36.00,
+  "nbJoueurMin" : 2,
+  "nbJoueurMax" : 4,
+  "duree" : 40,
+  "ageMin" : 8,
+  "noteComplexite" : 2,
+  "noteConcentration" : 2,
+  "noteAmbiance" : 1,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    },
+    {
+      "idLangue" : 2,
+      "libelle" : "Anglais"
+    }
+  ],
+  "categorie" : {
+    "idCategorie" : 2,
+    "libelle" : "Jeux de stratégie"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 12,
+      "intitule" : "Grail Games"
+    }
+  ],
+  "auteur" : [
+    {
+      "idAuteur" : 11,
+      "nom" : "FRANZ-BENNO",
+      "prenom": "Delonge"
+    }
+  ],
+  "avis" : [
+    {
+      "idAvis" : 6,
+      "note" : 5,
+      "commentaire" : "J'aime beaucoup",
+      "date" : ISODate("2020-05-07T01:26:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 9,
+          "pseudo" : "clauclau",
+          "age" : 44
+      }
+    },
+    {
+      "idAvis" : 21,
+      "note" : 5,
+      "commentaire" : "Je joue pas trop au jeux de société mais celui la une pépite",
+      "date" : ISODate("2021-08-18T04:37:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 1,
+          "pseudo" : "clemclem",
+          "age" : 27
+      }
+    },
+    {
+      "idAvis" : 25,
+      "note" : 5,
+      "commentaire" : "Excellent jeu",
+      "date" : ISODate("2021-11-08T07:27:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 16,
+          "pseudo" : "peltdepelteuse",
+          "age" : 53
+      }
+    }
+  ]
+}
+{
+  "_id" : 12,
+  "nom" : "VOYAGE AU CENTRE DE LA TERRE",
+  "description" : "Partez sur les traces de Jules Verne...",
+  "prix" : 19.90,
+  "nbJoueurMin" : 1,
+  "nbJoueurMax" : 10,
+  "duree" : 10,
+  "ageMin" : 10,
+  "noteComplexite" : 1,
+  "noteConcentration" : 3,
+  "noteAmbiance" : 1,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    }
+  ],
+  "categorie" : {
+    "idCategorie" : 2,
+    "libelle" : "Jeux de stratégie"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 13,
+      "intitule" : "Origames"
+    }
+  ],
+  "auteur" : [
+    {
+      "idAuteur" : 12,
+      "nom" : "MILLAN",
+      "prenom": "Alberto"
+    }
+  ]
+}
+{
+  "_id" : 13,
+  "nom" : "LE PEUPLE LOUP - MON AVENTURE",
+  "description" : "Créez votre propre histoire...",
+  "prix" : 16.90,
+  "nbJoueurMin" : 2,
+  "nbJoueurMax" : 2,
+  "duree" : 25,
+  "ageMin" : 8,
+  "noteComplexite" : 1,
+  "noteConcentration" : 3,
+  "noteAmbiance" : 2,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    }
+  ],
+  "categorie" : {
+    "idCategorie" : 2,
+    "libelle" : "Jeux de stratégie"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 14,
+      "intitule" : "Funforge"
+    }
+  ],
+  "auteur" : [
+    {
+      "idAuteur" : 13,
+      "nom" : "MILAVEC",
+      "prenom": "Maja"
+    }
+  ]
+}
+{
+  "_id" : 14,
+  "nom" : "BEE GENIUS",
+  "description" : "La logique des abeilles...",
+  "prix" : 24.00,
+  "nbJoueurMin" : 1,
+  "nbJoueurMax" : 8,
+  "duree" : 10,
+  "ageMin" : 3,
+  "noteComplexite" : 1,
+  "noteConcentration" : 4,
+  "noteAmbiance" : 1,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    }
+  ],
+  "categorie" : {
+    "idCategorie": 3,
+    "libelle" : "Jeux juniors"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 3,
+      "intitule" : "Gigamic"
+    }
+  ],
+  "auteur" : [
+    {
+      "idAuteur" : 14,
+      "nom" : "LAZARUS",
+      "prenom": "Aron"
+    }
+  ],
+  "avis" : [
+    {
+      "idAvis" : 18,
+      "note" : 2,
+      "commentaire" : "53 ans et je préfère ce jeu pour enfant à mon petit fils de 5 ans",
+      "date" : ISODate("2021-06-10T02:29:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 20,
+          "pseudo" : "jeandemandedespseudomoi?",
+          "age" : 53
+      }
+    },
+    {
+      "idAvis" : 19,
+      "note" : 4,
+      "commentaire" : "Je viens de le commencer avec ma fille et début prometteur",
+      "date" : ISODate("2021-07-06T03:25:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 11,
+          "pseudo" : "greg",
+          "age" : 46
+      }
+    }
+  ]
+}
+{
+  "_id" : 15,
+  "nom" : "BINGO ISLAND + TUILE GOODIES",
+  "description" : "Bienvenue à Bingo Island, votre île aux trésors...",
+  "prix" : 23.90,
+  "nbJoueurMin" : 2,
+  "nbJoueurMax" : 4,
+  "duree" : 15,
+  "ageMin" : 6,
+  "noteComplexite" : 1,
+  "noteConcentration" : 2,
+  "noteAmbiance" : 2,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    }
+  ],
+  "categorie" : {
+    "idCategorie": 3,
+    "libelle" : "Jeux juniors"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 15,
+      "intitule" : "Grrre Games"
+    }
+  ],
+  "auteur" : [
+    {
+      "idAuteur" : 15,
+      "nom" : "BAUZA",
+      "prenom": "Antoine"
+    },
+    {
+      "idAuteur" : 16,
+      "nom" : "LEBRAT",
+      "prenom": "Corentin"
+    }
+  ]
+}
+{
+  "_id" : 16,
+  "nom" : "IQ SIX PRO",
+  "description" : "120 nouveaux défis pour les mordus des jeux de poche IQ",
+  "prix" : 12.00,
+  "nbJoueurMin" : 1,
+  "nbJoueurMax" : 1,
+  "duree" : 20,
+  "ageMin" : 8,
+  "noteComplexite" : 4,
+  "noteConcentration" : 3,
+  "noteAmbiance" : 1,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    },
+    {
+      "idLangue" : 2,
+      "libelle" : "Anglais"
+    },
+    {
+      "idLangue" : 3,
+      "libelle" : "Allemand"
+    },
+    {
+      "idLangue" : 4,
+      "libelle" : "Espagnol"
+    },
+    {
+      "idLangue" : 5,
+      "libelle" : "Italien"
+    },
+    {
+      "idLangue" : 6,
+      "libelle" : "Portugais"
+    },
+    {
+      "idLangue" : 7,
+      "libelle" : "Néerlandais"
+    }
+  ],
+  "categorie" : {
+    "idCategorie" : 2,
+    "libelle" : "Jeux de stratégie"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 16,
+      "intitule" : "Smart Games"
+    }
+  ],
+  "auteur" : [
+    {
+      "idAuteur" : 17,
+      "nom" : "LAMBRICHTS",
+      "prenom": "Rein"
+    },
+    {
+      "idAuteur" : 18,
+      "nom" : "BROBECKER",
+      "prenom": "Alain"
+    }
+  ]
+}
+{
+  "_id" : 17,
+  "nom" : "LE PETIT FANTÔME",
+  "description" : "Quand le petit fantôme s'ennuie...",
+  "prix" : 27.00,
+  "nbJoueurMin" : 2,
+  "nbJoueurMax" : 4,
+  "duree" : 15,
+  "ageMin" : 5,
+  "noteComplexite" : 1,
+  "noteConcentration" : 2,
+  "noteAmbiance" : 2,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    }
+  ],
+  "categorie" : {
+    "idCategorie": 3,
+    "libelle" : "Jeux juniors"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 17,
+      "intitule" : "Huch"
+    },
+    {
+      "idEditeur" : 18,
+      "intitule" : "Atalia"
+    }
+  ],
+  "auteur" : [
+    {
+      "idAuteur" : 19,
+      "nom" : "HAFERKAMP",
+      "prenom": "Kai"
+    }
+  ]
+}
+{
+  "_id" : 18,
+  "nom" : "ÉCHECS CLUB COMPÉTITION 50CM",
+  "description" : "Jeu d'Échecs complet transportable pour Tournoi",
+  "prix" : 35.00,
+  "nbJoueurMin" : 2,
+  "nbJoueurMax" : 2,
+  "duree" : 10,
+  "ageMin" : 8,
+  "noteComplexite" : 4,
+  "noteConcentration" : 5,
+  "noteAmbiance" : 1,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    },
+    {
+      "idLangue" : 2,
+      "libelle" : "Anglais"
+    }
+  ],
+  "categorie" : {
+    "idCategorie": 4,
+    "libelle" : "Jeux classiques"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 19,
+      "intitule" : "Wilson Jeux - Importation"
+    }
+  ],
+  "avis" : [
+    {
+      "idAvis" : 7,
+      "note" : 5,
+      "commentaire" : "Des pièces magnifique",
+      "date" : ISODate("2020-05-28T01:47:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 8,
+          "pseudo" : "lucD",
+          "age" : 33
+      }
+    },
+    {
+      "idAvis" : 28,
+      "note" : 5,
+      "commentaire" : "Pièces niquel",
+      "date" : ISODate("2022-02-01T22:21:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 15,
+          "pseudo" : "capupu",
+          "age" : 57
+      }
+    }
+  ]
+}
+{
+  "_id" : 19,
+  "nom" : "RUBIK'S CUBE 3X3 (SMALL PACK)",
+  "description" : "Original Rubik's Cube...",
+  "prix" : 16.90,
+  "nbJoueurMin" : 1,
+  "nbJoueurMax" : 1,
+  "duree" : 30,
+  "ageMin" : 8,
+  "noteComplexite" : 4,
+  "noteConcentration" : 5,
+  "noteAmbiance" : 1,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    }
+  ],
+  "categorie" : {
+    "idCategorie": 4,
+    "libelle" : "Jeux classiques"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 20,
+      "intitule" : "Spinmaster"
+    }
+  ],
+  "avis" : [
+    {
+      "idAvis" : 10,
+      "note" : 5,
+      "commentaire" : "Rubik's cube médiocre super dur à tourner",
+      "date" : ISODate("2020-09-05T05:24:20.202Z"),
+      "utilisateur" : {
+          "idUtil" : 4,
+          "pseudo" : "toto98",
+          "age" : 23
+      }
+    }
+  ]
+}
+{
+  "_id" : 20,
+  "nom" : "DAMES - TRADITION",
+  "description" : "Pion et plateau en bois...",
+  "prix" : 19.90,
+  "nbJoueurMin" : 2,
+  "nbJoueurMax" : 2,
+  "duree" : 30,
+  "ageMin" : 5,
+  "noteComplexite" : 4,
+  "noteConcentration" : 5,
+  "noteAmbiance" : 1,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    }
+  ],
+  "categorie" : {
+    "idCategorie": 4,
+    "libelle" : "Jeux classiques"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 21,
+      "intitule" : "Schmidt"
+    }
+  ]
+}
+{
+  "_id" : 21,
+  "nom" : "YAHTZEE CLASSIQUE",
+  "description" : "Battez-vous et que le meilleur graaal.... !",
+  "prix" : 15.00,
+  "nbJoueurMin" : 2,
+  "nbJoueurMax" : 5,
+  "duree" : 20,
+  "ageMin" : 8,
+  "noteComplexite" : 1,
+  "noteConcentration" : 1,
+  "noteAmbiance" : 2,
+  "langue" : [
+    {
+      "idLangue" : 1,
+      "libelle" : "Français"
+    }
+  ],
+  "categorie" : {
+    "idCategorie": 4,
+    "libelle" : "Jeux classiques"
+  },
+  "editeur" : [
+    {
+      "idEditeur" : 7,
+      "intitule" : "Hasbro"
+    }
+  ]
+}
